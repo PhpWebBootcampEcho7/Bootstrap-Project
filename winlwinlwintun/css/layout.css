@@ -1,0 +1,69 @@
+.bold{
+	font-family:"Masterpiece Uni Sans",Myanmar3,Padauk,Zawgyi-One;
+}
+.logoimg{
+	border-radius: 15px;
+}
+.contactlist{
+	padding: 20px;
+	font-style: italic;
+}
+.footersection{
+	padding: 10px;
+}
+.footersite{
+	color: #fff;
+	padding: 16px;
+}
+.footera{
+	color: #fff;
+	text-decoration: none;
+}
+.footera:hover{
+	text-decoration: none;
+}
+.footerspace{
+	border-top: 1px solid #fff;
+}
+.iconstyle{
+	padding: 16px;
+}
+.fbiconlink{
+	padding: 5px;
+	color: blue;
+}
+.fbiconlink:hover{
+	color: blue;
+}
+.gpiconlink{
+	padding: 5px;
+	color: red; 
+}
+.gpiconlink:hover{
+	color: red;
+}
+.twiconlink{
+	padding: 5px;
+	color: skyblue;
+}
+.twiconlink:hover{
+	color: skyblue;
+}
+
+
+
+@font-face {
+font-family:'Myanmar3';
+src:local('Myanmar3'), url('./fonts/myanmar3.woff') format('woff'), 
+url('fonts/myanmar3.ttf') format('ttf');
+}
+@font-face {
+font-family:'Padauk';
+src:local('Padauk'), url('./fonts/padauk.woff') format('woff'),
+url('fonts/padauk.ttf') format('ttf');
+}
+@font-face {
+font-family:'Zawgyi-One';
+src:local('Zawgyi-One'), url('./fonts/zawgyi.woff') format('woff'), 
+url('fonts/zawgyi.ttf') format('ttf');
+}
